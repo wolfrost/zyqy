@@ -1,0 +1,64 @@
+unit Forecast;
+
+interface
+
+type
+  point = ^node;
+  node = Record
+    id: integer;
+    link: point;
+  end;
+function ForecastThat(ForeMonth: Integer;ForeDay: Integer):string;
+implementation
+uses
+  main;
+
+function ForecastThat(ForeMonth: Integer;ForeDay: Integer):string;
+var
+  head,next,last: point;
+  i: integer;
+begin
+  new(head);
+  head^.id := 1;
+  last := head;
+  for i := 2 to 12 do
+  begin
+    new(next);
+    next^.id := i;
+    last^.link := next;
+    last := next;
+  end;
+  last^.link := head;
+  next := head;
+  for i := 1 to ForeMonth-1 do
+  begin
+    next := next^.link;
+  end;
+  for i := 1 to ForeDay-1 do
+  begin
+    next := next^.link;
+  end;
+    case next^.id of
+         1:ForecastThat := '东北方或西南方';
+         2:ForecastThat := '东方或西方';
+         3:ForecastThat := '东南方或西北方';
+         4:ForecastThat := '东南方或西北方';
+         5:ForecastThat := '南方或北方';
+         6:ForecastThat := '西南方或东北方';
+         7:ForecastThat := '西南方或东北方';
+         8:ForecastThat := '西方或东方';
+         9:ForecastThat := '西北方或东南方';
+        10:ForecastThat := '西北方或东南方';
+        11:ForecastThat := '北方或南方';
+        12:ForecastThat := '东北方或西南方';
+    end;
+  for i := 1 to 12 do
+  begin
+    last := head;
+    head := head^.link;
+    dispose(last);
+  end;
+end;
+end.
+ 
+
