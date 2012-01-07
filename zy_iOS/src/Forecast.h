@@ -1,20 +1,13 @@
 #import <Foundation/Foundation.h>
 
-@interface Forecast
+@interface Forecast:NSObject
 {
-    @public
-        NSString ForeMonth, ForeDay;
-    @private
-        struct point {
-            int *id;
-            point *link;
-        }
-        point head, next, last;
+    int ForeMonth, ForeDay;
 }
-@property (retain) NSString ForeMonth;
-@property (retain) NSString ForeDay;
--(void) initWithMonth:(NSString) aMonth andDay:(NSString) aDay;
--(NSString) ForecastThat;
+@property int ForeMonth,ForeDay;
+
+-(id) initWithMonth:(int) aMonth andDay:(int) aDay;
+-(NSString *) ForecastThat;
 
 
 @end
