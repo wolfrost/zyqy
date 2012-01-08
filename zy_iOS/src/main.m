@@ -9,6 +9,9 @@ int main(int argc, char *argv[])
     NSLog(@"%i",[forecast ForeMonth]);
     NSLog(@"%i",[forecast ForeDay]);
     NSLog(@"你的有缘人在你的%@", [forecast ForecastThat]);
+    //NSDate *sd = [[NSDate alloc] init];
+    NSDate *sd = [NSDate dateWithNaturalLanguageString:@"1911/11/21"];
+    NSLog(@"%@",[forecast LunarForSolar:sd]);
     [forecast release];
     [pool drain];
     return 0;

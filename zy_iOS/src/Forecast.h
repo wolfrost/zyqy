@@ -8,6 +8,7 @@
 
 -(id) initWithMonth:(int) aMonth andDay:(int) aDay;
 -(NSString *) ForecastThat;
+-(NSString *) LunarForSolar:(NSDate *)solarDate;
 
 
 @end
