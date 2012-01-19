@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4E152514BF5BC30024B33E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4E152414BF5BC30024B33E /* UIKit.framework */; };
+		0A4E152714BF5BC30024B33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4E152614BF5BC30024B33E /* Foundation.framework */; };
+		0A4E152914BF5BC30024B33E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4E152814BF5BC30024B33E /* CoreGraphics.framework */; };
+		0A4E152F14BF5BC30024B33E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A4E152D14BF5BC30024B33E /* InfoPlist.strings */; };
+		0A4E153114BF5BC30024B33E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E153014BF5BC30024B33E /* main.m */; };
+		0A4E153514BF5BC30024B33E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E153414BF5BC30024B33E /* AppDelegate.m */; };
+		0A4E153814BF5BC30024B33E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E153714BF5BC30024B33E /* ViewController.m */; };
+		0A4E153B14BF5BC30024B33E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4E153914BF5BC30024B33E /* ViewController_iPhone.xib */; };
+		0A4E153E14BF5BC30024B33E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4E153C14BF5BC30024B33E /* ViewController_iPad.xib */; };
+		0AE198AE14C7FC77003ADD74 /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE198AD14C7FC77003ADD74 /* Forecast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4E152014BF5BC30024B33E /* zyqy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zyqy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4E152414BF5BC30024B33E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A4E152614BF5BC30024B33E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A4E152814BF5BC30024B33E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A4E152C14BF5BC30024B33E /* zyqy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zyqy-Info.plist"; sourceTree = "<group>"; };
+		0A4E152E14BF5BC30024B33E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A4E153014BF5BC30024B33E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A4E153214BF5BC30024B33E /* zyqy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zyqy-Prefix.pch"; sourceTree = "<group>"; };
+		0A4E153314BF5BC30024B33E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A4E153414BF5BC30024B33E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A4E153614BF5BC30024B33E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A4E153714BF5BC30024B33E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A4E153A14BF5BC30024B33E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		0A4E153D14BF5BC30024B33E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		0AE198AC14C7FC77003ADD74 /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
+		0AE198AD14C7FC77003ADD74 /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4E151D14BF5BC30024B33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4E152514BF5BC30024B33E /* UIKit.framework in Frameworks */,
+				0A4E152714BF5BC30024B33E /* Foundation.framework in Frameworks */,
+				0A4E152914BF5BC30024B33E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4E151514BF5BC30024B33E = {
+			isa = PBXGroup;
+			children = (
+				0A4E152A14BF5BC30024B33E /* zyqy */,
+				0A4E152314BF5BC30024B33E /* Frameworks */,
+				0A4E152114BF5BC30024B33E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4E152114BF5BC30024B33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E152014BF5BC30024B33E /* zyqy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4E152314BF5BC30024B33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E152414BF5BC30024B33E /* UIKit.framework */,
+				0A4E152614BF5BC30024B33E /* Foundation.framework */,
+				0A4E152814BF5BC30024B33E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A4E152A14BF5BC30024B33E /* zyqy */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E153314BF5BC30024B33E /* AppDelegate.h */,
+				0AE198AC14C7FC77003ADD74 /* Forecast.h */,
+				0AE198AD14C7FC77003ADD74 /* Forecast.m */,
+				0A4E153414BF5BC30024B33E /* AppDelegate.m */,
+				0A4E153614BF5BC30024B33E /* ViewController.h */,
+				0A4E153714BF5BC30024B33E /* ViewController.m */,
+				0A4E153914BF5BC30024B33E /* ViewController_iPhone.xib */,
+				0A4E153C14BF5BC30024B33E /* ViewController_iPad.xib */,
+				0A4E152B14BF5BC30024B33E /* Supporting Files */,
+			);
+			path = zyqy;
+			sourceTree = "<group>";
+		};
+		0A4E152B14BF5BC30024B33E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4E152C14BF5BC30024B33E /* zyqy-Info.plist */,
+				0A4E152D14BF5BC30024B33E /* InfoPlist.strings */,
+				0A4E153014BF5BC30024B33E /* main.m */,
+				0A4E153214BF5BC30024B33E /* zyqy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4E151F14BF5BC30024B33E /* zyqy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4E154114BF5BC30024B33E /* Build configuration list for PBXNativeTarget "zyqy" */;
+			buildPhases = (
+				0A4E151C14BF5BC30024B33E /* Sources */,
+				0A4E151D14BF5BC30024B33E /* Frameworks */,
+				0A4E151E14BF5BC30024B33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zyqy;
+			productName = zyqy;
+			productReference = 0A4E152014BF5BC30024B33E /* zyqy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4E151714BF5BC30024B33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0A4E151A14BF5BC30024B33E /* Build configuration list for PBXProject "zyqy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A4E151514BF5BC30024B33E;
+			productRefGroup = 0A4E152114BF5BC30024B33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4E151F14BF5BC30024B33E /* zyqy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4E151E14BF5BC30024B33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4E152F14BF5BC30024B33E /* InfoPlist.strings in Resources */,
+				0A4E153B14BF5BC30024B33E /* ViewController_iPhone.xib in Resources */,
+				0A4E153E14BF5BC30024B33E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4E151C14BF5BC30024B33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4E153114BF5BC30024B33E /* main.m in Sources */,
+				0A4E153514BF5BC30024B33E /* AppDelegate.m in Sources */,
+				0A4E153814BF5BC30024B33E /* ViewController.m in Sources */,
+				0AE198AE14C7FC77003ADD74 /* Forecast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A4E152D14BF5BC30024B33E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4E152E14BF5BC30024B33E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A4E153914BF5BC30024B33E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4E153A14BF5BC30024B33E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0A4E153C14BF5BC30024B33E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4E153D14BF5BC30024B33E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4E153F14BF5BC30024B33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4E154014BF5BC30024B33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4E154214BF5BC30024B33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zyqy/zyqy-Prefix.pch";
+				INFOPLIST_FILE = "zyqy/zyqy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A4E154314BF5BC30024B33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zyqy/zyqy-Prefix.pch";
+				INFOPLIST_FILE = "zyqy/zyqy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4E151A14BF5BC30024B33E /* Build configuration list for PBXProject "zyqy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4E153F14BF5BC30024B33E /* Debug */,
+				0A4E154014BF5BC30024B33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4E154114BF5BC30024B33E /* Build configuration list for PBXNativeTarget "zyqy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4E154214BF5BC30024B33E /* Debug */,
+				0A4E154314BF5BC30024B33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4E151714BF5BC30024B33E /* Project object */;
+}
