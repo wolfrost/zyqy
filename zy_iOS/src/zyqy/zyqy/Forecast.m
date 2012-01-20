@@ -134,7 +134,7 @@
     wCurDay = [components day];
     
     //计算到初始时间1921年2月8日的天数：1921-2-8(正月初一)
-    nTheDate = (wCurYear - 1821) * 365 + (wCurYear - 1821) / 4 + wCurDay + wMonthAdd[wCurMonth - 1] - 38;
+    nTheDate = (wCurYear - 1921) * 365 + (wCurYear - 1921) / 4 + wCurDay + wMonthAdd[wCurMonth - 1] - 38;
     if((!(wCurYear % 4)) && (wCurMonth > 2))
         nTheDate = nTheDate + 1;
     
@@ -170,7 +170,7 @@
             break;
         m = m + 1;
     }
-    wCurYear = 1821 + m;
+    wCurYear = 1921 + m;
     wCurMonth = k - n + 1;
     wCurDay = nTheDate;
     if (k == 12)

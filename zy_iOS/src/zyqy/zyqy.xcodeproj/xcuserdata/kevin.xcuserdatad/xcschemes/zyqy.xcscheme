@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A4E151F14BF5BC30024B33E"
                BuildableName = "zyqy.app"
-               BlueprintName = "zyqy"
+               BlueprintName = "&#21608;&#26131;&#24773;&#32536;"
                ReferencedContainer = "container:zyqy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A4E151F14BF5BC30024B33E"
             BuildableName = "zyqy.app"
-            BlueprintName = "zyqy"
+            BlueprintName = "&#21608;&#26131;&#24773;&#32536;"
             ReferencedContainer = "container:zyqy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,7 +51,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A4E151F14BF5BC30024B33E"
             BuildableName = "zyqy.app"
-            BlueprintName = "zyqy"
+            BlueprintName = "&#21608;&#26131;&#24773;&#32536;"
             ReferencedContainer = "container:zyqy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -69,7 +69,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A4E151F14BF5BC30024B33E"
             BuildableName = "zyqy.app"
-            BlueprintName = "zyqy"
+            BlueprintName = "&#21608;&#26131;&#24773;&#32536;"
             ReferencedContainer = "container:zyqy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
